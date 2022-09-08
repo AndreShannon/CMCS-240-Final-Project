@@ -2,7 +2,7 @@
 
 Authors: André Shannon, Maggie Dong, Ashley Frazier, and Jearice Black
 
-Group project completed for cs 240 at University of Richmond
+Group project completed Spring 2020 for CMSC 240 at the University of Richmond
 
 
 
