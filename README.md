@@ -5,24 +5,20 @@ Authors: André Shannon, Maggie Dong, Ashley Frazier, and Jearice Black
 Group project completed for cs 240 at University of Richmond
 
 
-## cmsc240_s2020_final_foxtrot
 
-###How to compile and run code:
+## How to compile and run code
+
 To compile our code just run the make file in the terminal. To run the code, you
 run the simulation with two arguments in the command line. The first one is the input
 file, the second is the number for the initial seed.
 
-###Design Decisions:
+## Design Decisions
+
 For the Random class, we decided to make its methods static, so that we can use its
 methods in the other classes with having to create an instance of the Random class every
 time.
 
-For the Vehicle class, we decided for it to be a child of the VehicleBase class, so
-that we can use the animator. There are two static methods in the class, setProbabilityofVehicleType and setProbabilityofTurningDirection. These method store the
-information from the input file pertaining to vehicles. The reason we made them was so that we can store the numbers with having to create vehicle objects. We have to private methods that use the
-random class and probability to figure out the type of the vehicle and the probability of a
-vehicle turning right or left. We created an enum class for store the moving direction of
-the car. We call this class Turning.  
+For the Vehicle class, we decided for it to be a child of the VehicleBase class, so that we can use the animator. There are two static methods in the class, setProbabilityofVehicleType and setProbabilityofTurningDirection. These method store the information from the input file pertaining to vehicles. The reason we made them was so that we can store the numbers without having to create vehicle objects. We have two private methods that use the random class and probability to figure out the type of the vehicle and the probability of a vehicle turning right or left. We created an enum class for store the moving direction of the car. We call this class Turning.  
 
 
 For the Stoplight class, we decided there was going to be one static method in the class, setTimes.
